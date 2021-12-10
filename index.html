@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+<head>
+</head>
+<body>
+   <h1>Restaurante el Centollo</h1>
+    <h2>Haz tu reserva</h2>
+<form action="" method="get">
+<div>
+   <label>Nombre:</label><input type="text" name="name" required/>
+</div>
+<div>
+   <label>Correo electronico:</label><input type="email" name="email" required/>
+</div>
+<div>
+   <label>Telefono:</label><input type="tel" name="telefono" required/>
+</div>
+<div>
+  <label>Fecha de reserva:</label><input type="date" name="fecha" required/>
+</div>
+<div>
+   <label>Franja Horaria</label>
+   <select name="franja">
+  <option>13:00--14:00</option>
+  <option>14:00--15:00</option>
+  </select>
+</div>
+<div>
+   <label>Comensales(min 1, max 10):</label><input type="number" name="comensales" min="1" max="10"/>
+
+</div>
+   <label>Color del mantel </label><input type="color" name="color_control" />
+<div>
+
+  <label>Demandas especiales</label><br/><textarea placeholder="alergias, tronas,..."></textarea>
+</div>
+<div>
+  <input type="submit" value="Enviar"/>
+</div>
+</form>
+</body>
+</html>
